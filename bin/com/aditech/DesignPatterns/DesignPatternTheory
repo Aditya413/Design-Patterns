@@ -1,0 +1,32 @@
+Theory for Design Patterns, there are basically three things
+
+	- Design Patterns(Source Code) -> We can say it is a time tested solution for architecture of code 
+		which revolves around classes and objects.
+		Design Patterns are proven and tested way of thinking of rules about code.
+		
+	- Architecture Patterns(Block Diagrams) -> MVC is Architecture Pattern, it is the way our applications are designed. MVVM
+	
+	- Architecture Style(Principles) -> They are set of principle for eg. REST is the Architecture style which uses HTTP.
+	
+	So how we implement it is all upto us. Service Oriented Pattern
+	
+	Design Patterns -> 
+		There are lot of design patterns which comes from GOF(Gang of Four), DDD evans etc
+		
+		1. Aggregate root -> An aggregate will have one of its component objects be the aggregate root. 
+		Any references from outside the aggregate should only go to the aggregate root. 
+		The root can thus ensure the integrity of the aggregate as a whole.
+		
+		
+		Question 1. Some real life scenario for using Prototype Design
+		Question 2. What are the consequences of using Prototype Design and in what conditions?
+		
+		
+		Here's the journey begins.
+		
+		GANG OF FOUR - GOF is designed by 4 people Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides.
+		
+		
+		List of Design Patterns
+		1. Strategy Design Pattern : Strategy Design Pattern is used to create different algorithms for each object 
+		which are called at runtime.
