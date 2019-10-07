@@ -2,12 +2,12 @@ package com.aditech.DesignPatterns.StrategyPattern.model;
 
 public class InsuranceCategory {
 	private String InsurerName;
-	private enum InsuranceType{MEDICAL, VEHICLE, PROPERTY};
+	public static enum InsuranceType{MEDICAL, VEHICLE, PROPERTY};
 	private long amount;
 	private InsuranceType insuranceType;
 	
 	public InsuranceCategory(String insurerName, long amount, InsuranceType insuranceType) {
-		InsurerName = insurerName;
+		this.InsurerName = insurerName;
 		this.amount = amount;
 		this.insuranceType = insuranceType;
 	}

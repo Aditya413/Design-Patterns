@@ -12,6 +12,14 @@ public class InsurancePlan {
 		this.insurancePlanList = new ArrayList<>();
 	}
 
+	public List<InsuranceCategory> getInsurancePlanList() {
+		return insurancePlanList;
+	}
+
+	public void setInsurancePlanList(List<InsuranceCategory> insurancePlanList) {
+		this.insurancePlanList = insurancePlanList;
+	}
+
 	public void addInsurancePlan(InsuranceCategory insuranceCategory) {
 		insurancePlanList.add(insuranceCategory);
 	}
