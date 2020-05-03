@@ -1,0 +1,39 @@
+What are trees?
+-> Trees are the Special type of graphs. 
+
+						A --- Root
+		  	  Edges--- / \
+					  B   C --- Node
+					 / \
+ 		Leaf node---D   E --- Node
+					   / 
+					  F --- Leaf node
+					  
+Imagine it as a mirror image of actual tree. At top we have root and after 
+that we have nodes and the node who does not have any child elements are
+known as leaf nodes.
+					  
+
+Traversal on trees
+	- Breadth first search
+	- Depth first search
+
+
+1. Breadth first search -> Level order
+   This means traversing the node level by level fashion.
+						A --- Level 1
+					   / \
+					  B   C --- Level 2
+					 / \
+					D   E --- Level 3
+					   / 
+					  F --- Level 4
+ In this travesal we will visit and complete each level of the tree and 
+ then will go to the next level.
+  				  
+2. Depth first search ->
+	Preorder Traversal <Root><Left><Right>
+	Inorder Traversal <Left><Root><Right>
+	Postorder Traversal	<Left><Right><Root>
+	
+	
